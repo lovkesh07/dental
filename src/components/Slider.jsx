@@ -140,7 +140,7 @@ const ImgSlider = () => {
                 the Zinnov Zones ER&D report,2022
               </h1>
               <p className=" mb-5 text-xs md:text-sm">
-                Adjust The Customer's IT Infrastructure To New,Ever Growing
+                Adjust The Customer&apos;s IT Infrastructure To New,Ever Growing
                 Business & Technical Requirements
               </p>
               {/* <Link href={"/About/ContactUs"} className=" my-5 text-white bg-transparent border border-white  px-5 py-2 rounded-md">

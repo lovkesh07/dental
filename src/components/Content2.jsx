@@ -72,7 +72,7 @@ const Content2 = () => {
               className="mt-6 text-lg leading-8 text-gray-600"
               data-aos="fade-up"
             >
-              We’re a group of individuals who are passionate about
+              We&apos;re a group of individuals who are passionate about
               what we do and dedicated to delivering the best results for our
               clients.
             </p>

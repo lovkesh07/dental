@@ -80,9 +80,8 @@ const Carousel = styled(Slider)`
 `;
   return (
     <>
-    <div className='mt-[20vh]'>
-
-    
+    <div className='mt-[21vh]'>
+ 
     <Carousel {...settings}>
       <Wrap >
         <Image
@@ -109,7 +108,6 @@ const Carousel = styled(Slider)`
         <Image
           src={img4}
           alt="badging"
-          
         />
       </Wrap>
      

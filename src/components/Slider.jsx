@@ -29,7 +29,7 @@ const ImgSlider = () => {
 
   const Wrap = styled.div`
     cursor: pointer;
-    height: 65vh;
+    height: 95vh;
     img {
       //border: 4px solid black;
       width: 100%;

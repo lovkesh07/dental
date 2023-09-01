@@ -19,8 +19,8 @@ const Abouttext = () => {
                   patients, and technology companies like ours.
                 </p>
                 <p className="mt-6 text-base leading-7 text-gray-600" data-aos="fade-up">
-                  we're not just building technology—we're building
-                  relationships.
+                  we are not just building technology—we are building
+                  relationships. 
                 </p>
               </div>
               <div className="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents">

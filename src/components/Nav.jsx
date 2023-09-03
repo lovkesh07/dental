@@ -8,11 +8,11 @@ const Nav = () => {
     const [navbar, setNavbar] = useState(false);
 
   return (
-    <div >
+    <div className='sticky top-0'>
         <div className=" bg-black"> 
 
         
-        <div className="justify-between px-4 mx-auto lg:max-w-7xl  md:items-center md:flex md:px-8 ">
+        <div className=" justify-between px-4 mx-auto lg:max-w-7xl  md:items-center md:flex md:px-8 ">
           <div>
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
               

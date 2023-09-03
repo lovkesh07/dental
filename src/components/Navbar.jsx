@@ -1,16 +1,17 @@
 "use client";
 import Nav from "./Nav";
+import Link from "next/link";
 
 function NavBar() {
   return (
     <div>
-      <nav className="w-full  top-0 left-0 fixed right-0 z-10">
+      <nav className="w-full top-0  fixed left-0 right-0 z-10">
         
-        <div className="bg-white lg:px-24 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
+        <div className="bg-white lg:px-24 ">
           
-          <div className="flex flex-row py-6 gap-4 h-16 bg-white px-16 lg:px-4">
+          <div className="flex flex-row  gap-4  lg:h-16  px-16 lg:px-4">
            
-          <div className="bg-white lg:px-24 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+          <div className=" lg:px-6 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
           
             <div className=" flex items-center space-x-1">
               <svg
@@ -26,7 +27,7 @@ function NavBar() {
                   clip-rule="evenodd"
                 />
               </svg>
-              <span className="cursor-pointer  lg:text-sm hover:text-red-400">00 00000000</span> 
+              <Link href="/"><span className="cursor-pointer  lg:text-sm hover:text-red-400">+91- 9810350385</span> </Link>
             </div>
             <div className=" flex items-center space-x-1">
               <svg
@@ -37,7 +38,7 @@ function NavBar() {
               >
                 <path d="M3.5 2A1.5 1.5 0 002 3.5V5c0 1.149.15 2.263.43 3.326a13.022 13.022 0 009.244 9.244c1.063.28 2.177.43 3.326.43h1.5a1.5 1.5 0 001.5-1.5v-1.148a1.5 1.5 0 00-1.175-1.465l-3.223-.716a1.5 1.5 0 00-1.767 1.052l-.267.933c-.117.41-.555.643-.95.48a11.542 11.542 0 01-6.254-6.254c-.163-.395.07-.833.48-.95l.933-.267a1.5 1.5 0 001.052-1.767l-.716-3.223A1.5 1.5 0 004.648 2H3.5zM16.72 2.22a.75.75 0 111.06 1.06L14.56 6.5h2.69a.75.75 0 010 1.5h-4.5a.75.75 0 01-.75-.75v-4.5a.75.75 0 011.5 0v2.69l3.22-3.22z" />
               </svg>
-              <span className="cursor-pointer  lg:text-sm hover:text-red-400" >00 00000000</span> 
+              <Link href="/"><span className="cursor-pointer  lg:text-sm hover:text-red-400" >+91- 9999578291</span> </Link>
             </div>
             <div className=" flex items-center space-x-1">
               <svg
@@ -52,14 +53,14 @@ function NavBar() {
                   clip-rule="evenodd"
                 />
               </svg>
-              <span className="cursor-pointer lg:text-sm hover:text-red-400">abcd@gmail.com</span>
+              <Link href="/"><span className="cursor-pointer lg:text-sm hover:text-red-400">lalitkumar7221@chauhandentallaboratory.com</span> </Link>
             </div>
             </div>
           </div>
 
 {/* ------------------------------------------------------------------------ */}
 
-          <div className="lg:px-24 py-4 pt-4 ml-24 flex gap-x-6  ">
+          {/* <div className="lg:px-24 py-4 pt-4 ml-24 flex gap-x-6  ">
             <div className="mt-12 lg:mt-0 flex gap-x-4">
 
               <a href="/" className="group" aria-label="TaxPal on Twitter">
@@ -96,7 +97,7 @@ function NavBar() {
                 </svg>
               </a>
                   </div>
-            </div>
+            </div> */}
         </div>
 
         

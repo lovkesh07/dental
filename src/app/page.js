@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Slider from "@/components/Slider";
 import Fslider from "@/components/Fslider";
 
 import Content1 from "@/components/Content1";

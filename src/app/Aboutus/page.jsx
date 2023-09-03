@@ -1,5 +1,7 @@
 import React from "react";
 import img2 from "../../../public/Images/img2.jpeg";
+import img1 from "../../../public/Images/pp3.webp";
+
 import Image from "next/image";
 import Abouttext from "./Abouttext";
 

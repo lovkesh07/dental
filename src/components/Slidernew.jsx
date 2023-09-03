@@ -6,10 +6,16 @@ import styled from "styled-components";
 import Slider from "react-slick";
 import Image from "next/image";
 
-import img1 from "../../public/Images/moon.jpg";
-import img2 from "../../public/Images/img2.jpeg";
+// import img1 from "../../public/Images/moon.jpg";
+// import img2 from "../../public/Images/img2.jpeg";
 import img3 from "../../public/Images/img3.webp";
 import img4 from "../../public/Images/img1.webp";
+
+import img5 from "../../public/Images/pp7.webp";
+import img6 from "../../public/Images/pp6.jpeg";
+import img1 from "../../public/Images/pp5.jpg";
+import img2 from "../../public/Images/pp4.jpeg";
+
 
 const Hm = () => {
   const settings = {
@@ -74,22 +80,22 @@ const Hm = () => {
   `;
   return (
     <>
-      <div className="mt-[34vh] lg:mt-[21vh]">
+      <div className="mt-[20vh] lg:mt-[21vh]">
         <Carousel {...settings}>
           <Wrap >
-            <Image src={img1} alt="badag" className="h-[50vh] lg:h-[70vh]" />
+            <Image src={img5} alt="badag" className="h-[50vh] lg:h-[70vh]" />
            
           </Wrap>
           <Wrap >
-            <Image src={img2} alt="avengers" className="h-[50vh] lg:h-[70vh]" />
+            <Image src={img6} alt="avengers" className="h-[50vh] lg:h-[70vh]" />
            
           </Wrap>
           <Wrap >
-            <Image src={img3} alt="badging" className="h-[50vh] lg:h-[70vh]" />
+            <Image src={img1} alt="badging" className="h-[50vh] lg:h-[70vh]" />
             
           </Wrap>
           <Wrap >
-            <Image src={img4} alt="badging" className="h-[50vh] lg:h-[70vh]" />
+            <Image src={img2} alt="badging" className="h-[50vh] lg:h-[70vh]" />
             
           </Wrap>
         </Carousel>

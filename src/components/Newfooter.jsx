@@ -1,5 +1,7 @@
 import React from 'react'
 import Link from "next/link";
+import logo from "../../public/Images/logo2.png";
+import Image from "next/image";
 
 const Newfooter = () => {
   return (
@@ -10,8 +12,10 @@ const Newfooter = () => {
         <div class="md:flex md:justify-between">
           <div class="mb-6 md:mb-0">
               <a href="/" class="flex items-center">
-                  <img src="https://flowbite.com/docs/images/logo.svg" class="h-8 mr-3" alt="" />
-                  <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
+                  <Image src={logo} 
+                   className='w-[90px] lg:w-[120px]'
+                  alt="" />
+                  {/* <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span> */}
               </a>
           </div>
           <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">

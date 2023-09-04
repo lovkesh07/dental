@@ -2,6 +2,10 @@
 import React from 'react'
 import Image from "next/image";
 import Link from "next/link";
+import logo from "../../public/Images/logo2.png";
+import open from "../../public/Images/open.jpg";
+import close from "../../public/Images/close.jpg";
+
 import { useState } from "react";
 
 const Nav = () => {
@@ -9,15 +13,18 @@ const Nav = () => {
 
   return (
     <div className='sticky top-0'>
-        <div className=" bg-black"> 
+        <div className=" bg-gray-900 backdrop-filter backdrop-blur-lg bg-opacity-50"> 
 
         
         <div className=" justify-between px-4 mx-auto lg:max-w-7xl  md:items-center md:flex md:px-8 ">
           <div>
-            <div className="flex items-center justify-between py-3 md:py-5 md:block">
+            <div className="flex items-center justify-between py-0 md:py-0 md:block">
               
               <Link href="/">
-                <h2 className="text-2xl text-cyan-600 font-bold ">LOGO</h2>
+                {/* <h2 className="text-2xl text-cyan-600 font-bold ">LOGO</h2> */}
+                <Image src={logo}
+                className='w-[50px] lg:w-[70px]'
+                />
               </Link>
               
               <div className="md:hidden">
@@ -26,14 +33,16 @@ const Nav = () => {
                   onClick={() => setNavbar(!navbar)}
                 >
                   {navbar ? (
-                    <Image src="/close.svg" width={30} height={30} alt="logo" />
+                    <Image src={close} width={30} height={30} alt="logo" 
+                    className="focus:border-none rounded-md active:border-none"
+                    />
                   ) : (
                     <Image
-                      src="/hamburger-menu.svg"
+                      src={open}
                       width={30}
                       height={30}
                       alt="logo"
-                      className="focus:border-none active:border-none"
+                      className="focus:border-none rounded-md active:border-none"
                     />
                   )}
                 </button>

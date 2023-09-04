@@ -13,7 +13,7 @@ const page = () => {
         />
 
 
-        <div class="absolute top-[50%] translate-y-[-50%] left-[50%] translate-x-[-50%] text-[40px] font-bold text-white w-full text-center p-5">
+        <div class="absolute top-[50%] translate-y-[-50%] left-[50%] translate-x-[-50%] text-sm lg:text-[40px] font-bold text-white w-full text-center p-5">
           Contact-Us
         </div>
       </div>

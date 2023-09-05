@@ -5,6 +5,8 @@ import Link from "next/link";
 import logo from "../../public/Images/logo2.png";
 import open from "../../public/Images/open.jpg";
 import close from "../../public/Images/close.jpg";
+import logo1 from "../../public/Images/Main_logo.png";
+
 
 import { useState } from "react";
 
@@ -22,8 +24,8 @@ const Nav = () => {
               
               <Link href="/">
                 {/* <h2 className="text-2xl text-cyan-600 font-bold ">LOGO</h2> */}
-                <Image src={logo}
-                className='w-[50px] lg:w-[70px]'
+                <Image src={logo1}
+                className='w-[80px] lg:w-[130px] py-2'
                 />
               </Link>
               

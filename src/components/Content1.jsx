@@ -2,7 +2,7 @@ import React from "react";
 
 const Content1 = () => {
   return (
-    <div className="pb-24 pt-10">
+    <div className="pb-24 lg:pt-10">
       <div className="px-4 lg:px-16">
         <h1 className="text-4xl lg:text-8xl font-bold">Chauhan Dental Laboratory</h1>
         <p className="my-6">

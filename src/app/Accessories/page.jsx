@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from "next/link";
 
 const page = () => {
 
@@ -7,20 +8,20 @@ const page = () => {
           name: "REMOVABLES",
           role: "Dentures, Partials, Nightguards, and Sleep Apnea Devices",
           imageUrl:"https://s3-eu-west-1.amazonaws.com/dts-website/images/product_previews/DTS_dental_laboratory_glasgow_scotland_uk_denture_prosthetics_partial_tryin_chrome_orthodontics_dentures.png" ,
-          link:"/"
+          link:"/Accessories/Removables"
         },
 
           {
             name: "ORTHODONTICS",
             role: "Arch Development, Space Maintainers and more",
             imageUrl:"https://s3-eu-west-1.amazonaws.com/dts-website/images/product_previews/DTS_dental_laboratory_glasgow_scotland_uk_denture_prosthetics_partial_tryin_chrome_orthodontics_ortho.png" ,
-            link:"/"
+            link:"/Accessories/Orthodontics"
           },
           {
             name: "DENTAL IMPLANTS",
             role: "Dental implants and surgical guides",
             imageUrl:"https://s3-eu-west-1.amazonaws.com/dts-website/images/product_previews/DTS_dental_laboratory_glasgow_scotland_uk_crowns_bridge_inlay_onlay_implant_restoration_metal.png" ,
-            link:"/"
+            link:"/Accessories/Dentalimplants"
           },
           
           
@@ -28,7 +29,7 @@ const page = () => {
             name: "CROWN & BRIDGE",
             role: "All Ceramics, PFM, and Full Cast ",
             imageUrl:"https://s3-eu-west-1.amazonaws.com/dts-website/images/product_previews/DTS_dental_laboratory_glasgow_scotland_uk_crowns_bridge_inlay_onlay_implant_restoration_crowns.png" ,
-            link:"/"
+            link:"/Accessories/Crownbridge"
           },
           
           
@@ -39,7 +40,7 @@ const page = () => {
   return (
     <div>
         <div className='text-center justify-center'>
-            <h1 className='text-6xl  mt-24 pt-24 font-bold pb-6 border-b-2 border-slate-500'>Product</h1>
+            <h1 className='text-6xl  mt-24 pt-24 font-bold pb-6 border-b-[20px] border-orange-500'>Product</h1>
 
             <div className=' p-4 lg:p-24 mx-auto grid   grid-cols-1 gap-x-16 gap-y-5 sm:grid-cols-2 lg:max-w-[70%] lg:grid-cols-2 xl:grid-cols-2'>
             {people.map((person) => (
@@ -58,9 +59,11 @@ const page = () => {
                   {person.role}
                 </p>
                 </div>
-                <div className='p-8'>
+                <div className='p-8 ' >
 
-                <button className='p-4 border-2 border-blue-700' key={person.link}>VIEW PRODUCT</button>
+                <Link 
+                href={person.link}
+                className='p-4 border-2  border-red-700 hover:bg-orange-500 font-bold hover:text-white' >VIEW PRODUCT</Link>
                 </div>
                 
               </li>

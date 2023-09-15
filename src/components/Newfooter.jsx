@@ -26,32 +26,39 @@ const Newfooter = () => {
                           <a href="/" class="hover:underline text-[#64CCC5]">Home</a>
                       </li>
                       <li class="mb-4">
-                          <a href="/" class="hover:underline text-[#64CCC5]">About Us</a>
+                          <a href="/Aboutus" class="hover:underline text-[#64CCC5]">About Us</a>
+                      </li>
+                      <li class="mb-4">
+                          <a href="/Services" class="hover:underline text-[#64CCC5]">Services</a>
                       </li>
                       <li>
-                          <a href="/" class="hover:underline text-[#64CCC5]">Services</a>
+                          <a href="/Accessories" class="hover:underline text-[#64CCC5]">Accessories</a>
                       </li>
                   </ul>
               </div>
               <div>
-                  <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">ACCESSORIES</h2>
+                  <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Contact Us</h2>
                   <ul class="text-[#64CCC5] dark:text-gray-800 font-medium">
                       <li class="mb-4">
-                          <a href="/" class="hover:underline text-[#64CCC5]">Github</a>
+                          <a href="/ContactUs" class="hover:underline text-[#64CCC5]">Contact Us</a>
                       </li>
-                      <li>
-                          <a href="/" class="hover:underline text-[#64CCC5]">Discord</a>
-                      </li>
+        
                   </ul>
               </div>
               <div>
-                  <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">ACCESSORIES</h2>
+                  <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Our Products</h2>
                   <ul class="text-gray-900 dark:text-gray-900 font-medium">
                       <li class="mb-4">
-                          <a href="#" class="hover:underline text-[#64CCC5]">Privacy Policy</a>
+                          <a href="/Accessories/Removables" class="hover:underline text-[#64CCC5]">REMOVABLES</a>
+                      </li>
+                      <li class="mb-4">
+                          <a href="/Accessories/Orthodontics" class="hover:underline text-[#64CCC5]">ORTHODONTICS</a> 
+                      </li>
+                      <li class="mb-4">
+                          <a href="/Accessories/Dentalimplants" class="hover:underline text-[#64CCC5]">DENTAL IMPLANTS</a> 
                       </li>
                       <li>
-                          <a href="#" class="hover:underline text-[#64CCC5]">Terms &amp; Conditions</a> 
+                          <a href="/Accessories/Crownbridge" class="hover:underline text-[#64CCC5]">CROWN & BRIDGE</a> 
                       </li>
                   </ul>
               </div>

@@ -79,8 +79,8 @@ const Nav = () => {
                   </Link>
                 </li>
                 <li className="pb-4 text-xl text-white py-4 px-6 text-center  border-b-2 md:border-b-0  hover:bg-[#4c9dbd]  border-[#0a1417] md:hover:underline md:hover:text-[#053B50] md:hover:bg-transparent">
-                  <Link href="/" onClick={() => setNavbar(!navbar)}>
-                    Accessories
+                  <Link href="/Accessories" onClick={() => setNavbar(!navbar)}>
+                    Our Products
                   </Link>
                 </li>
               </ul>

@@ -9,10 +9,10 @@ const Servicestext = () => {
         </h1>
         <ul className="px-6 lg:px-16 py-8  space-y-1 list-disc list-inside ">
           <li className="flex items-center space-x-1 ">
-          <span>
-            <span className="font-semibold px-4">1.</span> Time saving: we
-            believe in appointment based dentistry. As you are aware, the
-            treatment is scheduled to minimize the wastage of time.
+            <span>
+              <span className="font-semibold px-4">1.</span> Time saving: we
+              believe in appointment based dentistry. As you are aware, the
+              treatment is scheduled to minimize the wastage of time.
             </span>
           </li>
 
@@ -25,43 +25,43 @@ const Servicestext = () => {
             </span>
           </li>
           <li className="flex items-center space-x-1">
-          <span>
-            <span className="font-semibold px-4">3.</span> Emphasis on early
-            detection of dental problem, which in certain cases can prevent
-            surgery and extensive treatment procedures.
+            <span>
+              <span className="font-semibold px-4">3.</span> Emphasis on early
+              detection of dental problem, which in certain cases can prevent
+              surgery and extensive treatment procedures.
             </span>
           </li>
           <li className="flex items-center space-x-1">
-          <span>
-            <span className="font-semibold px-4">4.</span> Counseling and
-            guidance rather than merely providing treatment.
+            <span>
+              <span className="font-semibold px-4">4.</span> Counseling and
+              guidance rather than merely providing treatment.
             </span>
           </li>
           <li className="flex items-center space-x-1">
-          <span>
-            <span className="font-semibold px-4">5.</span> Warm, courteous and
-            helpful staff trained to provide better service.
+            <span>
+              <span className="font-semibold px-4">5.</span> Warm, courteous and
+              helpful staff trained to provide better service.
             </span>
           </li>
           <li className="flex items-center space-x-1">
-          <span>
-            <span className="font-semibold px-4">6.</span> Highest standards in
-            dentistry are maintained including international standards of
-            hygiene to provide excellent patient care as quality is the prime
-            priority.
+            <span>
+              <span className="font-semibold px-4">6.</span> Highest standards
+              in dentistry are maintained including international standards of
+              hygiene to provide excellent patient care as quality is the prime
+              priority.
             </span>
           </li>
           <li className="flex items-center space-x-1">
-          <span>
-            <span className="font-semibold px-4">7.</span> Personalized
-            reminders prior to appointment either by telephone or e-mail.
+            <span>
+              <span className="font-semibold px-4">7.</span> Personalized
+              reminders prior to appointment either by telephone or e-mail.
             </span>
           </li>
-          
+
           <li className="flex items-center space-x-1">
-          <span>
-            <span className="font-semibold px-4">8.</span> A private lounge
-            ,neat and tidy atmosphere with elegant furnishings.
+            <span>
+              <span className="font-semibold px-4">8.</span> A private lounge
+              ,neat and tidy atmosphere with elegant furnishings.
             </span>
           </li>
         </ul>

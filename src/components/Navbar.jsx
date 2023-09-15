@@ -7,7 +7,7 @@ function NavBar() {
     <div>
       <nav className="w-full top-0  fixed left-0 right-0 z-10">
         
-        <div className="bg-white lg:px-24 ">
+        <div className="bg-[url('https://dentistwhittierca.com/wp-content/uploads/2023/05/Dentist.jpg')] bg-cover bg-fixed bg-top bg-no-repeat lg:px-24 ">
           
           <div className="flex flex-row  gap-4  lg:h-16  px-16 lg:px-4">
            

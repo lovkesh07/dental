@@ -36,127 +36,13 @@ const Contactform = () => {
   };
   return (
     <div>
-      {/* 
-// <div className="w-[100%] p-4  flex justify-center items-center ">
-    //   <div className=" w-[100%]   rounded-md flex flex-col sm:flex-row">
-       
-    //     <div className=" w-full h-fit   sm:min-h-[100%] flex flex-col items-center justify-center  rounded-md">
-    //       <form
-    //         onSubmit={sendEmail}
-    //         className=" w-full h-full py-8  flex flex-col gap-10 items-center justify-center"
-    //       >
-
-    //         <div className="relative w-3/4">
-    //           <input
-    //             type="text"
-    //             required
-    //             name="Fullname"
-    //             value={Name}
-    //             onChange={(e) => {
-    //               setName(e.target.value);
-    //             }}
-    //             className=" text-black w-full bg-transparent outline-none border-b-[1px] border-black"
-    //           />
-    //           <label className=" absolute top-[-24px] left-[5px] text-gray-500 text-sm">
-    //             Full Name<span className="text-red-500"> *</span>
-    //           </label>
-    //         </div>
-
-    //         <div className="relative w-3/4">
-    //           <input
-    //             type="text"
-    //             required
-    //             name="Email"
-    //             value={Emails}
-    //             onChange={(e) => {
-    //               setEmails(e.target.value);
-    //             }}
-    //             className=" text-black w-full bg-transparent outline-none border-b-[1px] border-black"
-    //           />
-    //           <label className=" absolute top-[-24px] left-[5px] text-gray-500 text-sm">
-    //             Email Address<span className="text-red-500"> *</span>
-    //           </label>
-    //         </div>
-
-    //         <div className="w-3/4 flex flex-row gap-2">
-    //           <div className="relative w-1/4">
-    //             <input
-    //               type="text"
-    //               required
-    //               className=" text-black w-full bg-transparent outline-none border-b-[1px] border-black"
-    //             />
-    //             <label className=" text-gray-500 absolute top-[-24px] left-[5px] text-sm">
-    //               Code<span className="text-red-500"> *</span>
-    //             </label>
-    //           </div>
-
-    //           <div className="relative w-3/4">
-    //             <input
-    //               type="number"
-    //               required
-    //               name="Phoneno"
-    //               value={Phoneno}
-    //               onChange={(e) => {
-    //                 setPhoneno(e.target.value);
-    //               }}
-    //               className=" text-black w-full bg-transparent outline-none border-b-[1px] border-black"
-    //             />
-    //             <label className=" absolute top-[-24px] left-[5px] text-gray-500 text-sm">
-    //               Mobile Number<span className="text-red-500"> *</span>
-    //             </label>
-    //           </div>
-    //         </div>
-
-    //         <div className="relative w-3/4">
-    //           <textarea
-    //             name="Query"
-    //             value={Query}
-    //             onChange={(e) => {
-    //               setQuery(e.target.value);
-    //             }}
-    //             className=" text-black bg-transparent border-b-[1px] border-black w-full text-xs px-4 py-2 outline-none"
-    //           ></textarea>
-    //           <label className=" absolute top-[-24px] left-[5px] text-gray-500 text-sm ">
-    //             Message<span className="text-red-500"> *</span>
-    //           </label>
-    //         </div>
-
-    //         <div className=" flex flex-col gap-5 px-5">
-    //           <div className=" flex flex-row items-center gap-1">
-    //             <div>
-    //               <input type="checkbox" required />
-    //             </div>
-    //             <span className=" text-black text-xs">
-    //               {" "}
-    //               By clicking here, I state that I have read and understood the{" "}
-    //               <b className=" text-blue-400">
-    //                 <Link href="/term&condition">Terms and conditions</Link>
-    //               </b>{" "}
-    //               &{" "}
-    //               <b className=" text-blue-400">
-    //                 <Link href="/privacy&policy">
-    //                   Privacy policies of the company
-    //                 </Link>
-    //               </b>
-    //               <b className=" text-red-500"> *</b>
-    //             </span>
-    //           </div>
-    //           <button className="bg-blue-500 w-fit py-3 px-3 mx-auto rounded-lg hover:bg-blue-600  transition-all duration-100 ease-in">
-    //             Submit
-    //           </button>
-    //         </div>
-    //       </form>
-    //     </div>
-    //   </div>
-    // </div> */}
-
       <section class=" p-4 backdrop-filter  backdrop-blur-xl bg-opacity-20">
         <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
           <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-black">
             Contact Us
           </h2>
           <p class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-500 sm:text-xl">
-            Got a technical issue? Want to send feedback about a beta feature?
+            Got a issue? Want to send feedback?
             Need details about our Business plan? Let us know.
           </p>
           <form action="#" 

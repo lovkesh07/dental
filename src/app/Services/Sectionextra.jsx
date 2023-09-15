@@ -1,0 +1,140 @@
+import React from "react";
+
+const Sectionextra = () => {
+  return (
+    <div className="mx-auto p-8 lg:p-24 text-slate-200 bg-slate-800">
+      {/* <h1 className=" py-3">Why Work with Us?</h1> */}
+      <h1
+        className="font-medium py-3 text-xl md:text-2xl lg:text-6xl"
+        data-aos="fade-up"
+      >
+        Benefits to you for undergoing dental treatment at our clinic :
+      </h1>
+
+      <div class="grid grid-cols-1 my-5 p-5 sm:p-8 lg:p-12 gap-x-1 gap-y-1  md:grid-cols-2 lg:grid-cols-2">
+        <div
+          className=" p-5 sm:p-8 lg:p-12 shadow-[-10px_-10px_0px_10px_#F7FAFC]
+  "
+        >
+          <ul className="leading-8 my-4  ">
+            <li
+              className=" py-4 lg:my-2 border-b-[1px] border-solid border-slate-200"
+              data-aos="fade-up"
+            >
+              
+              <p className=" text-xs sm:text-base">
+              1. Time saving: we
+              believe in appointment based dentistry. As you are aware, the
+              treatment is scheduled to minimize the wastage of time.
+              </p>
+            </li>
+            <li
+              className="py-4 lg:my-2 border-b-[1px] border-solid border-slate-200"
+              data-aos="fade-up"
+            >
+              
+              <p className=" text-xs sm:text-base">
+              2. Convenient Location:
+              Situated in the heart of East Delhi, walking distance from CWG
+              Village & Akshardham temple. The clinic is readily connected to
+              South and Central Delhi and Noida and Ghaziabad region.
+              </p>
+            </li>
+            <li
+                className="py-4 lg:my-2 border-b-[1px] border-solid border-slate-200"
+                data-aos="fade-up"
+              >
+                
+                <p className=" text-xs sm:text-base">
+                3. Emphasis on early
+              detection of dental problem, which in certain cases can prevent
+              surgery and extensive treatment procedures.
+                </p>
+              </li>
+
+              <li
+                className="py-4 lg:my-2 border-b-[1px] border-solid border-slate-200"
+                data-aos="fade-up"
+              >
+                
+                <p className=" text-xs sm:text-base">
+                4. Counseling and
+              guidance rather than merely providing treatment.
+                </p>
+              </li>
+          </ul>
+        </div>
+
+        <div
+          className=" p-5 sm:p-8 lg:p-12 lg:px-16 shadow-[10px_10px_0px_10px]
+ "
+        >
+          <div className=" ">
+            <ul className="leading-8 my-4  ">
+              <li
+                className=" py-4 lg:my-2 border-b-[1px] border-solid border-slate-200"
+                data-aos="fade-up"
+              >
+                
+                <p className=" text-xs sm:text-base">
+                5. Warm, courteous and
+              helpful staff trained to provide better service.
+                </p>
+              </li>
+
+
+              <li
+                className="py-4 lg:my-2 border-b-[1px] border-solid border-slate-200"
+                data-aos="fade-up"
+              >
+                
+                <p className=" text-xs sm:text-base">
+                6. Highest standards
+              in dentistry are maintained including international standards of
+              hygiene to provide excellent patient care as quality is the prime
+              priority.
+                </p>
+              </li>
+
+              <li
+                className="py-4 lg:my-2 border-b-[1px] border-solid border-slate-200"
+                data-aos="fade-up"
+              >
+                
+                <p className=" text-xs sm:text-base">
+                7. Personalized
+              reminders prior to appointment either by telephone or e-mail.
+                </p>
+              </li>
+
+              <li
+                className="py-4 lg:my-2 border-b-[1px] border-solid border-slate-200"
+                data-aos="fade-up"
+              >
+                
+                <p className=" text-xs sm:text-base">
+                8. A private lounge
+              ,neat and tidy atmosphere with elegant furnishings.
+                </p>
+              </li>
+
+
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div className=" w-[100%]  my-5 py-5 flex flex-col sm:flex-row gap-3 rounded-md ">
+      <p className="pt-4 pb-8 pl-2 text-sm lg:text-2xl font-semibold">
+          We provide facilities for different specialties of dentistry like
+          orthodontics, periodontics, endodontics, prosthodontics, pedodontics,
+          oral and maxillofacial surgery, implantology, cosmetic dentistry and
+          restorative dentistry – all under one roof, so that patient does not
+          have to run around to different clinics.
+        </p>
+      </div>
+    </div>
+  );
+};
+
+export default Sectionextra;

@@ -15,7 +15,7 @@ const Contactform = () => {
     e.preventDefault();
 
     window.location.href =
-      "mailto:lovkeshptl@gmail.com?subject=" +
+      "mailto:lalitkumar7221@chauhandentallaboratory.com?subject=" +
       Query +
       "&body= \n Name:" +
       Name +

@@ -12,10 +12,12 @@ const Contacttext = () => {
             </h1>
             <h2 className="font-bold text-sm lg:text-2xl">ADDRESS</h2>
             <p className="pb-4 lg:pb-8">
-              5440 Beaumont Center Blvd., Suite 400, Tampa, FL 33634
+              Chauhan dental laboratory, <br />
+              Chirag delhi, <br />
+              New delhi - 110017
             </p>
-            <h2 className="font-bold text-sm lg:text-2xl">PHONE</h2>
-            <p className="pb-8 lg:pb-12">877.337.7800 </p>
+            <h2 className="font-bold text-sm lg:text-2xl">PHONE No.</h2>
+            <p className="pb-8 lg:pb-12"> 9810350385 </p>
 
             <div className="pb-2  lg:pb-8 border-b-2 border-slate-500">
               <div className="lg:px-24 py-4 pt-4  flex gap-x-6  items-center justify-center">
@@ -57,11 +59,11 @@ const Contacttext = () => {
             </div>
 
             <p className="pt-12 lg:pt-20 pb-8 lg:pb-16">
-              “The quality of DDS Lab’s finished product is exquisite. This is
+              “The quality of CDL Lab’s finished product is exquisite. This is
               definitely a top-notch lab, who really values all of their
               customers. Very thorough processes and their online system is
               extremely convenient and user-friendly. Looking forward to
-              continuing to use DDS Lab and experience all of their other
+              continuing to use CDL Lab and experience all of their other
               products.”
             </p>
 
@@ -72,8 +74,7 @@ const Contacttext = () => {
 
         {/* ---------------------------contactus form------------------------- */}
 
-        <div
-          className="shadow-xl bg-slate-100 rounded-md bg-clip-padding backdrop-filter  backdrop-blur-xl bg-opacity-20 ">
+        <div className="shadow-xl bg-slate-100 rounded-md bg-clip-padding backdrop-filter  backdrop-blur-xl bg-opacity-20 ">
           <Contactform />
         </div>
       </div>

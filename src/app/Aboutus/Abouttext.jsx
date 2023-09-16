@@ -131,7 +131,7 @@ const Abouttext = () => {
                   className="mt-6 text-xl leading-8 text-gray-600"
                   data-aos="fade-up"
                 >
-                  With more than 30 years of industry experience, spanning four
+                  With more than 35 years of industry experience, spanning two
                   generations, the CDL team boasts an unsurpassed record of
                   excellence and performance in the realm of dental technology.
                 </p>

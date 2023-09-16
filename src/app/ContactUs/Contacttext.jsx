@@ -67,8 +67,8 @@ const Contacttext = () => {
               products.”
             </p>
 
-            <p className="font-bold">Joanely Rodriguez</p>
-            <p className="">Perfect Dental Peabody</p>
+            <p className="font-bold">Mr. Lalit Kumar</p>
+            <p className="">FOunder : CDL</p>
           </div>
         </div>
 

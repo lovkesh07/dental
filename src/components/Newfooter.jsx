@@ -29,7 +29,7 @@ const Newfooter = () => {
                           <a href="/Aboutus" class="hover:underline text-[#64CCC5]">About Us</a>
                       </li>
                       <li class="mb-4">
-                          <a href="/Services" class="hover:underline text-[#64CCC5]">Services</a>
+                          <a href="/Services" class="hover:underline text-[#64CCC5]">Why Us</a>
                       </li>
                       <li>
                           <a href="/Accessories" class="hover:underline text-[#64CCC5]">Accessories</a>
@@ -37,10 +37,13 @@ const Newfooter = () => {
                   </ul>
               </div>
               <div>
-                  <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Contact Us</h2>
+                  <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Other Links</h2>
                   <ul class="text-[#64CCC5] dark:text-gray-800 font-medium">
                       <li class="mb-4">
                           <a href="/ContactUs" class="hover:underline text-[#64CCC5]">Contact Us</a>
+                      </li>
+                      <li class="mb-4">
+                          <a href="/faq" class="hover:underline text-[#64CCC5]">FAQ</a>
                       </li>
         
                   </ul>
@@ -49,16 +52,16 @@ const Newfooter = () => {
                   <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Our Products</h2>
                   <ul class="text-gray-900 dark:text-gray-900 font-medium">
                       <li class="mb-4">
-                          <a href="/Accessories/Removables" class="hover:underline text-[#64CCC5]">REMOVABLES</a>
+                          <a href="/Accessories/Removables" class="hover:underline text-[#64CCC5]">Removables</a>
                       </li>
                       <li class="mb-4">
-                          <a href="/Accessories/Orthodontics" class="hover:underline text-[#64CCC5]">ORTHODONTICS</a> 
+                          <a href="/Accessories/Orthodontics" class="hover:underline text-[#64CCC5]">Orthodontics</a> 
                       </li>
                       <li class="mb-4">
-                          <a href="/Accessories/Dentalimplants" class="hover:underline text-[#64CCC5]">DENTAL IMPLANTS</a> 
+                          <a href="/Accessories/Dentalimplants" class="hover:underline text-[#64CCC5]">Dental Implants</a> 
                       </li>
                       <li>
-                          <a href="/Accessories/Crownbridge" class="hover:underline text-[#64CCC5]">CROWN & BRIDGE</a> 
+                          <a href="/Accessories/Crownbridge" class="hover:underline text-[#64CCC5]">Crown & Bridge</a> 
                       </li>
                   </ul>
               </div>

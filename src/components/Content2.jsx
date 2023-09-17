@@ -36,12 +36,13 @@ const Content2 = () => {
     <>
     <div id="team">
       {/* Team section */}
+      {/* bg-[url('https://dentistwhittierca.com/wp-content/uploads/2023/05/Dentist.jpg')]   backdrop-brightness-50*/}
 
-      <div className=" py-8 pt-16 lg:pt-16 bg-[url('https://dentistwhittierca.com/wp-content/uploads/2023/05/Dentist.jpg')] bg-cover bg-fixed bg-top bg-no-repeat">
+      <div className=" py-8 pt-16 lg:pt-1 bg-cover bg-orange-200 bg-fixed bg-top bg-no-repeat">
         <div className="mx-auto max-w-7xl px-6 lg:px-8 ">
           <div className="mx-auto  max-w-2xl  text-center">
             <h2
-              className="text-4xl text-center tracking-tight backdrop-brightness-50 p-6 text-white sm:text-4xl lg:text-6xl font-extrabold"
+              className="text-4xl border-b-[10px] border-red-600 text-center tracking-tight pt-6 pb-2 text-black sm:text-4xl lg:text-6xl font-extrabold"
               data-aos="fade-up"
             >
               Accessories

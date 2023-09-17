@@ -4,6 +4,7 @@ import Image from "next/image";
 import Servicestext from './Servicestext';
 import img3 from "../../../public/Images/bb4.png";
 import Sectionextra from './Sectionextra';
+import Newpg from './Newpg';
 
 const page = () => {
   return (
@@ -23,6 +24,7 @@ const page = () => {
       {/* <Servicestext/> */}
 
       <Sectionextra/>
+      <Newpg/>
 
 
 

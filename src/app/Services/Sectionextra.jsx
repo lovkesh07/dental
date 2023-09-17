@@ -1,16 +1,33 @@
 import React from "react";
+import img6 from "../../../public/Images/pp6.jpeg";
+import Image from "next/image";
 
 const Sectionextra = () => {
   return (
     <div className="mx-auto p-8 lg:p-24 text-slate-200 bg-slate-800">
       {/* <h1 className=" py-3">Why Work with Us?</h1> */}
       <h1
-        className="font-medium py-3 text-xl md:text-2xl lg:text-6xl"
+        className=" py-3 font-bold text-2xl md:text-4xl lg:text-6xl"
         data-aos="fade-up"
       >
-        Benefits to you for undergoing dental treatment at our clinic :
+       Why Choose Us ?
       </h1>
 
+
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 py-6">
+        <div className="justify-center lg:text-xl lg:p-4">
+          <p>Since 1989, Illusion has been one of the largest dental laboratories in the world. We are acknowledged as one of the top pioneers and innovators in the dental sector. Our unwavering dedication to excellence, modern equipment, and cutting-edge software has always been valued. For over 33 years, patients across the globe have enjoyed products that adhere to high dental standards and that have made a mark internationally.</p>
+          <br/>
+          <p>Dental professionals also overwhelmingly choose our world-class solutions and services, thanks to our devoted research and development over many years. Traditional methods for making dental restorations could sometimes be inaccurate leading to poorly fitting crowns and bridges, wasted resources, and unhappy patients. Our dental laboratory creates dental restorations with a tremendous amount of precision, less mess and innovatively-intelligent techniques.</p>
+          <p></p>
+        </div>
+
+        <div className="text-center justify-center">
+          <Image src={img6} />
+        </div>
+      </div>
+
+{/* 
       <div class="grid grid-cols-1 my-5 p-5 sm:p-8 lg:p-12 gap-x-1 gap-y-1  md:grid-cols-2 lg:grid-cols-2">
         <div
           className=" p-5 sm:p-8 lg:p-12 shadow-[-10px_-10px_0px_10px_#F7FAFC]
@@ -132,7 +149,7 @@ const Sectionextra = () => {
           restorative dentistry – all under one roof, so that patient does not
           have to run around to different clinics.
         </p>
-      </div>
+      </div> */}
     </div>
   );
 };

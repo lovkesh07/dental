@@ -68,7 +68,7 @@ const Contacttext = () => {
             </p>
 
             <p className="font-bold">Mr. Lalit Kumar</p>
-            <p className="">FOunder : CDL</p>
+            <p className="">Founder : CDL</p>
           </div>
         </div>
 

@@ -54,7 +54,7 @@ const Newpg = () => {
               <Image
                 src={person.imageUrl}
                 className="justify-center mx-auto h-[30%] w-[30%] lg:h-[50%] lg:w-[50%]"
-              alt=""
+                alt="badag"
               />
               <h1 className="font-bold py-4">{person.name}</h1>
               <p className="text-sm lg:text-xl">{person.text}</p>

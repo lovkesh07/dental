@@ -11,31 +11,37 @@ import s6 from "../../../public/Images/s6.png";
 const Newpg = () => {
   const people = [
     {
+      id:1,
       name: "Knowledgeable Staff",
       imageUrl: s1,
       text: "Team Illusion is bestowed with international standard training programs & adequate experience to support you throughout the process.",
     },
     {
+      id:2,
       name: "Reliable Service",
       imageUrl: s2,
       text: "Being in the business for almost three decades, Illusion Dental understands the importance of work ethics & discipline. We never compromise with quality & service.",
     },
     {
+      id:3,
       name: "Ease of Use",
       imageUrl: s3,
       text: "Your time is precious & so are our products. From placing an order to its delivery & restoration, we optimize ease of use while providing maximum functionality & reducing time barriers.",
     },
     {
+      id:4,
       name: "Trusted Partnership",
       imageUrl: s4,
       text: "The Illusion family is growing every day because we respect our work & partners. We understand that a trusted, viable relationship saves time and energy while providing better economic outcomes.",
     },
     {
+      id:5,
       name: "Competitive Pricing",
       imageUrl: s5,
       text: "Illusion Dental not only selects the lucrative price point for our partners, but we also grant a competitive edge on the quality & work for long-term success.",
     },
     {
+      id:6,
       name: "Quick Turnaround",
       imageUrl: s6,
       text: "Illusion Dental not only selects the lucrative price point for our partners, but we also grant a competitive edge on the quality & work for long-term success.",
@@ -50,7 +56,7 @@ const Newpg = () => {
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 py-6">
           {people.map((person) => (
-            <div class="flex-col text-center justify-center drop-shadow-lg rounded-xl p-6 bg-white">
+            <div key={person.id} class="flex-col text-center justify-center drop-shadow-lg rounded-xl p-6 bg-white">
               <Image
                 src={person.imageUrl}
                 className="justify-center mx-auto h-[30%] w-[30%] lg:h-[50%] lg:w-[50%]"

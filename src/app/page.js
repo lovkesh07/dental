@@ -1,13 +1,14 @@
-import Image from "next/image";
-import Fslider from "@/components/Fslider";
 
+import Fslider from "@/components/Fslider";
 import Content1 from "@/components/Content1";
 import Content2 from "@/components/Content2";
-import Review from "@/components/Review";
 import Rev from "@/components/Rev";
 
 
 export default function Home() {
+
+
+
   return (
     <main className="">
       <Fslider />

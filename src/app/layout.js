@@ -1,7 +1,7 @@
+"use client"
 import './globals.css'
 import { Inter } from 'next/font/google'
-
-import Image from 'next/image'
+import React, {useEffect} from "react";
 import Navbar from '@/components/Navbar'
 import Newfooter from '@/components/Newfooter'
 
@@ -13,8 +13,36 @@ export const metadata = {
 }
 
 export default function RootLayout({ children }) {
+
+    // Disable right-click
+    useEffect(() => {
+      typeof window !== undefined &&
+        window.document.addEventListener("contextmenu", (e) => {
+          e.preventDefault();
+        });
+    }, []);
+  
+    document.onkeydown = function(e) {
+      console.log(e.key)
+      if(e.key === 'F12') {
+         return false;
+      }
+      if(e.ctrlKey && e.shiftKey && e.key === 'I') {
+         return false;
+      }
+      if(e.ctrlKey && e.shiftKey && e.key === 'C') {
+         return false;
+      }
+      if(e.ctrlKey && e.shiftKey && e.key === 'J') {
+         return false;
+      }
+      if(e.ctrlKey && e.key === 'u') {
+         return false;
+      }
+    }
+
   return (
-    <html lang="en">
+    <html oncontextmenu="return false" lang="en">
       <link rel="icon" href="../Images/favicon.ico"  sizes="64x64"/>
       <body className={inter.className}>
       <main >

@@ -1,7 +1,5 @@
 import React from 'react'
-import img2 from "../../../public/Images/img2.jpeg";
 import Image from "next/image";
-import Servicestext from './Servicestext';
 import img3 from "../../../public/Images/bb4.png";
 import Sectionextra from './Sectionextra';
 import Newpg from './Newpg';

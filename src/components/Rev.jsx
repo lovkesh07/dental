@@ -33,7 +33,7 @@ export default function Rev() {
             <p>3 months ago</p>
 
             <p className="text-sm w-[50%] mx-auto lg:text-3xl py-4 font-semibold">
-              "Great work with great results👌"
+            &ldquo; Great work with great results👌 &rdquo;
             </p>
             <p>~ Neha C</p>
             <p>
@@ -91,8 +91,8 @@ export default function Rev() {
             {" "}
             <span>10 months ago</span>
             <p className="text-sm w-[60%] mx-auto lg:text-3xl py-4 font-semibold">
-              "IT IS WHAT NATURE MATTERS LALITH BHAIYA IS A GOOD HUMAN BEING TOO
-              APART BEING A TECHNICIAN DR VIPUL GUPTA DWARKA"
+            &ldquo; IT IS WHAT NATURE MATTERS LALITH BHAIYA IS A GOOD HUMAN BEING TOO
+              APART BEING A TECHNICIAN DR VIPUL GUPTA DWARKA &rdquo;
             </p>
             <p>~ Vipul G</p>
             <div className="ml-16 sm:ml-[280px] lg:ml-[670px] py-4 flex items-center space-x-1">
@@ -147,8 +147,8 @@ export default function Rev() {
           <SwiperSlide className=" pt-6 lg:pt-24 ">
             <span>3 years ago</span>
             <p className="text-sm w-[50%] mx-auto lg:text-3xl py-4 font-semibold">
-              "Excellent work. Best work of porcelain, cast partial, and metal
-              free work at reasonable price."
+            &ldquo; Excellent work. Best work of porcelain, cast partial, and metal
+              free work at reasonable price. &rdquo;
             </p>
             <p>~ Murari C</p>
 

@@ -36,12 +36,12 @@ const Contactform = () => {
   };
   return (
     <div>
-      <section class=" p-4 backdrop-filter rounded-lg bg-orange-300 backdrop-blur-xl bg-opacity-20">
+      <section class=" p-4 backdrop-filter rounded-lg bg-[url('https://papers.co/wallpaper/papers.co-vt07-abstract-art-color-basic-background-pattern-blue-orange-25-wallpaper.jpg')] bg-no-repeat bg-cover backdrop-blur-xl bg-opacity-20">
         <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
-          <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-black">
+          <h2 class="mb-4 text-4xl lg:text-6xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">
             Contact Us
           </h2>
-          <p class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-500 sm:text-xl">
+          <p class="mb-8 lg:mb-16 font-light text-center text-gray-200 dark:text-gray-100 sm:text-xl">
             Got a issue? Want to send feedback?
             Need details about our Business plan? Let us know.
           </p>
@@ -51,7 +51,7 @@ const Contactform = () => {
             <div>
               <label
                 for="name"
-                class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-500"
+                class="block mb-2 text-sm  text-white font-bold"
               >
                 Your Full Name
               </label>
@@ -70,7 +70,7 @@ const Contactform = () => {
             <div>
               <label
                 for="email"
-                class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-500"
+                class="block mb-2 text-sm font-bold text-white"
               >
                 Your Phone No.
               </label>
@@ -89,7 +89,7 @@ const Contactform = () => {
             <div>
               <label
                 for="email"
-                class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-500"
+                class="block mb-2 text-sm font-bold text-white "
               >
                 Your email
               </label>
@@ -108,7 +108,7 @@ const Contactform = () => {
             <div>
               <label
                 for="subject"
-                class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-500"
+                class="block mb-2 text-sm font-bold text-white"
               >
                 Subject
               </label>
@@ -126,7 +126,7 @@ const Contactform = () => {
             <div class="sm:col-span-2">
               <label
                 for="message"
-                class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-500"
+                class="block mb-2 text-sm font-bold text-white"
               >
                 Your message
               </label>

@@ -42,7 +42,7 @@ const Content2 = () => {
         <div className="mx-auto max-w-7xl px-6 lg:px-8 ">
           <div className="mx-auto  max-w-2xl  text-center">
             <h2
-              className="text-4xl border-b-[10px] border-red-600 text-center tracking-tight pt-6 pb-2 text-black sm:text-4xl lg:text-6xl font-extrabold"
+              className="uppercase text-4xl border-b-[10px] border-red-600 text-center tracking-tight pt-6 pb-2 text-black sm:text-4xl lg:text-6xl font-extrabold"
               data-aos="fade-up"
             >
               Accessories

@@ -14,13 +14,13 @@ const Newpg = () => {
       id:1,
       name: "Knowledgeable Staff",
       imageUrl: s1,
-      text: "Team Illusion is bestowed with international standard training programs & adequate experience to support you throughout the process.",
+      text: "Team CDL is bestowed with international standard training programs & adequate experience to support you throughout the process.",
     },
     {
       id:2,
       name: "Reliable Service",
       imageUrl: s2,
-      text: "Being in the business for almost three decades, Illusion Dental understands the importance of work ethics & discipline. We never compromise with quality & service.",
+      text: "Being in the business for almost three decades CDL understands the importance of work ethics & discipline. We never compromise with quality & service.",
     },
     {
       id:3,
@@ -32,19 +32,19 @@ const Newpg = () => {
       id:4,
       name: "Trusted Partnership",
       imageUrl: s4,
-      text: "The Illusion family is growing every day because we respect our work & partners. We understand that a trusted, viable relationship saves time and energy while providing better economic outcomes.",
+      text: "The CDL family is growing every day because we respect our work & partners. We understand that a trusted, viable relationship saves time and energy while providing better economic outcomes.",
     },
     {
       id:5,
       name: "Competitive Pricing",
       imageUrl: s5,
-      text: "Illusion Dental not only selects the lucrative price point for our partners, but we also grant a competitive edge on the quality & work for long-term success.",
+      text: "Chauhan Dental Lab not only selects the lucrative price point for our partners, but we also grant a competitive edge on the quality & work for long-term success.",
     },
     {
       id:6,
       name: "Quick Turnaround",
       imageUrl: s6,
-      text: "Illusion Dental not only selects the lucrative price point for our partners, but we also grant a competitive edge on the quality & work for long-term success.",
+      text: "We understand the fast pace needed for sustainability & thus, Team Illusion promises quick service & swift turnaround times.",
     },
   ];
 

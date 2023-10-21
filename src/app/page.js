@@ -7,8 +7,6 @@ import Rev from "@/components/Rev";
 
 export default function Home() {
 
-
-
   return (
     <main className="">
       <Fslider />

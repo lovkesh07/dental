@@ -14,21 +14,21 @@ const Supportfaq = () => {
   const accordionData = [
     {
       title: "Is this website for patient or doctor or both?",
-      desc: "We want to revoltionize the whole medical community and our service is available for both patient and doctor.",
+      desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione, fugiat dolore ex repellat temporibus saepe?",
     },
     {
-      title: "Why Choose Diagnoos?      ",
-      desc: "The most important question while trusting about your health, right? The only reason why you should choose our Diagnoos is we can arrange a solution to any kind of Health related problem. Need help with anything? Just drop your query online or meet us offline and we will be right back with a great solution.",
+      title: "Why Choose Us?      ",
+      desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione, fugiat dolore ex repellat temporibus saepe?",
     },
 
     {
-      title: "How Old Is Diagnoos?      ",
-      desc: "Diagnoos has been in business since August 2023 we know we are new in the field but we have had 100+ satisfied clients and 300+ certified Doctors",
+      title: "How Old We are?      ",
+      desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione, fugiat dolore ex repellat temporibus saepe?",
     },
 
     {
       title: "What Is The Cost Of The Services Provided By Us      ",
-      desc: "The cost will depend on the kind of work you will give us. Every field of work requires a different type of way and we charge according to it.",
+      desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione, fugiat dolore ex repellat temporibus saepe?",
     },
   ];
   return (

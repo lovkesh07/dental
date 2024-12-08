@@ -58,32 +58,32 @@ const Nav = () => {
               }`}
             >
               <ul className="h-screen md:h-auto items-center justify-center md:flex ">
-                <li className="pb-4 text-xl text-white py-4 md:px-6 text-center border-b-2 md:border-b-0  hover:bg-[#4c9dbd]  border-[#0a1417] md:hover:underline  md:hover:text-[#053B50] md:hover:bg-transparent">
+                <li className="pb-4 text-xl text-white py-4 md:px-6 text-center border-b-2 md:border-b-0  hover:bg-[#4c9dbd]  border-[#0a1417] md:hover:underline  md:hover:text-[#eca84f] md:hover:bg-transparent">
                   <Link href="/" onClick={() => setNavbar(!navbar)}>
                     Home
                   </Link>
                 </li>
-                <li className="pb-4 text-xl text-white py-4 px-6 text-center  border-b-2 md:border-b-0  hover:bg-[#4c9dbd]  border-[#0a1417] md:hover:underline md:hover:text-[#053B50] md:hover:bg-transparent">
+                <li className="pb-4 text-xl text-white py-4 px-6 text-center  border-b-2 md:border-b-0  hover:bg-[#4c9dbd]  border-[#0a1417] md:hover:underline md:hover:text-[#eca84f] md:hover:bg-transparent">
                   <Link href="/Aboutus" onClick={() => setNavbar(!navbar)}>
                     AboutUs
                   </Link>
                 </li>
-                <li className="pb-4 text-xl text-white py-4 px-6 text-center  border-b-2 md:border-b-0  hover:bg-[#4c9dbd]  border-[#0a1417] md:hover:underline md:hover:text-[#053B50] md:hover:bg-transparent">
+                <li className="pb-4 text-xl text-white py-4 px-6 text-center  border-b-2 md:border-b-0  hover:bg-[#4c9dbd]  border-[#0a1417] md:hover:underline md:hover:text-[#eca84f] md:hover:bg-transparent">
                   <Link href="/ContactUs" onClick={() => setNavbar(!navbar)}>
                     Contact
                   </Link>
                 </li>
-                <li className="pb-4 text-xl text-white py-4 px-6 text-center  border-b-2 md:border-b-0  hover:bg-[#4c9dbd]  border-[#0a1417] md:hover:underline md:hover:text-[#053B50] md:hover:bg-transparent">
+                <li className="pb-4 text-xl text-white py-4 px-6 text-center  border-b-2 md:border-b-0  hover:bg-[#4c9dbd]  border-[#0a1417] md:hover:underline md:hover:text-[#eca84f] md:hover:bg-transparent">
                   <Link href="/faq" onClick={() => setNavbar(!navbar)}>
                     FAQ
                   </Link>
                 </li>
-                <li className="pb-4 text-xl text-white py-4 px-6 text-center  border-b-2 md:border-b-0  hover:bg-[#4c9dbd]  border-[#0a1417] md:hover:underline md:hover:text-[#053B50] md:hover:bg-transparent">
+                <li className="pb-4 text-xl text-white py-4 px-6 text-center  border-b-2 md:border-b-0  hover:bg-[#4c9dbd]  border-[#0a1417] md:hover:underline md:hover:text-[#eca84f] md:hover:bg-transparent">
                   <Link href="/Services" onClick={() => setNavbar(!navbar)}>
                     Why Us
                   </Link>
                 </li>
-                <li className="pb-4 text-xl text-white py-4 px-6 text-center  border-b-2 md:border-b-0  hover:bg-[#4c9dbd]  border-[#0a1417] md:hover:underline md:hover:text-[#053B50] md:hover:bg-transparent">
+                <li className="pb-4 text-xl text-white py-4 px-6 text-center  border-b-2 md:border-b-0  hover:bg-[#4c9dbd]  border-[#0a1417] md:hover:underline md:hover:text-[#eca84f] md:hover:bg-transparent">
                   <Link href="/Accessories" onClick={() => setNavbar(!navbar)}>
                     Our Products
                   </Link>

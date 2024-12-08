@@ -66,7 +66,7 @@ const Content2 = () => {
                   alt=""
                   // data-aos="fade-up" data-aos-duration="1500"
                 />
-                <div  className="px-6 py-2 bg-orange-500 rounded-2xl cursor-pointer">
+                <div  className="px-6 py-2 text-center bg-orange-500 cursor-pointer">
                   <Link href={person.link}>
                   <h3 className=" mt-2  sm:text-md font-semibold leading-8  tracking-tight text-black">
                   {person.name}

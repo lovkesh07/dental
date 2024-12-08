@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from "next/link";
+import Whatsapp from '@/components/Whatsapp';
 
 const page = () => {
 
@@ -71,6 +72,7 @@ const page = () => {
             </div>
 
         </div>
+        <Whatsapp/>
     </div>
   )
 }

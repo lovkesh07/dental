@@ -7,13 +7,13 @@ const Newfooter = () => {
   return (
     <div>
         
-<footer class="bg-white dark:bg-[#053B50]">
+<footer class="bg-[#053B50]">
     <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div class="md:flex md:justify-between">
           <div class="mb-6 md:mb-0">
               <a href="/" class="flex items-center">
                   <Image src={logo} 
-                   className='w-[90px] lg:w-[120px]'
+                   className='w-[90px] lg:w-[180px]'
                   alt="" />
                   {/* <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span> */}
               </a>
@@ -70,13 +70,13 @@ const Newfooter = () => {
       
       <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-500 lg:my-8" />
       <div class=" sm:flex sm:items-center sm:justify-between">
-          <span class="text-sm text-[#5fbbda] sm:text-center dark:text-[#5fbbda]">© 2023 <a href="/" class="hover:underline">Chauhan dental
+          <span class="text-sm text-[#5fbbda] sm:text-center dark:text-[#5fbbda]">© 2025 <a href="/" class="hover:underline">Chauhan dental
               Laboratory™</a>. All Rights Reserved.  | Designed By{" "}
               <Link
                 href="https://www.linkedin.com/in/lovkesh-patel-b4642b122/"
                 className="hover:text-red-600"
               >
-                Lovkesh
+                Luv
               </Link>
           </span>
           <div class="flex mt-4 space-x-5 sm:justify-center sm:mt-0">

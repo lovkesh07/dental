@@ -3,6 +3,7 @@ import Image from "next/image";
 import img3 from "../../../public/Images/bb4.png";
 import Sectionextra from './Sectionextra';
 import Newpg from './Newpg';
+import Whatsapp from '@/components/Whatsapp';
 
 const page = () => {
   return (
@@ -23,6 +24,7 @@ const page = () => {
 
       <Sectionextra/>
       <Newpg/>
+      <Whatsapp/>
 
 
 

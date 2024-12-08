@@ -4,6 +4,7 @@ import img3 from "../../../public/Images/bb4.png";
 
 import Image from "next/image";
 import Contacttext from './Contacttext';
+import Whatsapp from '@/components/Whatsapp';
 
 const page = () => {
   return (
@@ -20,6 +21,7 @@ const page = () => {
         </div>
       </div>
       <Contacttext/>
+      <Whatsapp/>
     </div>
   )
 }

@@ -4,6 +4,8 @@ import img1 from "../../../public/Images/pp3.webp";
 import img3 from "../../../public/Images/bb4.png";
 import Image from "next/image";
 import Abouttext from "./Abouttext";
+import Whatsapp from "@/components/Whatsapp";
+import EmailButton from "@/components/EmailButton";
 
 const page = () => {
   return (
@@ -34,6 +36,9 @@ const page = () => {
 
       <Abouttext/>
 
+<Whatsapp/>
+
+{/* <EmailButton/> */}
 
     </div>
   );

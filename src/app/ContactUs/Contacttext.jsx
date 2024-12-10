@@ -4,21 +4,42 @@ import Contactform from "./Contactform";
 const Contacttext = () => {
   return (
     <div>
-      <div className="p-2 lg:p-8 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5">
+      <div className="p-2 lg:p-8  ">
         <div className=" p-4 lg:p-16">
+          
           <div className="">
             <h1 className="font-bold text-4xl lg:text-6xl pb-6 lg:pb-12">
               Get in touch
             </h1>
+
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-2">
+            <div>
+
             <h2 className="font-bold text-sm lg:text-2xl">ADDRESS</h2>
             <p className="pb-4 lg:pb-8">
               Chauhan dental laboratory, <br />
               Chirag delhi, <br />
               New delhi - 110017
             </p>
-            <h2 className="font-bold text-sm lg:text-2xl">PHONE No.</h2>
+              
+              </div>
+
+              <div>
+              <h2 className="font-bold text-sm lg:text-2xl">PHONE No.</h2>
             <p className="pb-8 lg:pb-12"> 9810350385 </p>
 
+              </div>
+
+              <div>
+              <h2 className="font-bold text-sm lg:text-2xl">EMAIL ID.</h2>
+            <p className="pb-8 lg:pb-12"> 9810350385 </p>
+
+              </div>
+
+            </div>
+
+          
+            
             <div className="pb-2  lg:pb-8 border-b-2 border-slate-500">
               <div className="lg:px-24 py-4 pt-4  flex gap-x-6  items-center justify-center">
                 <div className="mt-12 lg:mt-0 flex gap-x-4">
@@ -58,7 +79,9 @@ const Contacttext = () => {
               </div>
             </div>
 
-            <p className="pt-12 lg:pt-20 pb-8 lg:pb-16">
+<div className="text-center mx-auto lg:w-[80%]">
+
+            <p className="pt-12  lg:pt-20 pb-8 lg:pb-16">
               “The quality of CDL Lab’s finished product is exquisite. This is
               definitely a top-notch lab, who really values all of their
               customers. Very thorough processes and their online system is
@@ -69,14 +92,15 @@ const Contacttext = () => {
 
             <p className="font-bold">Mr. Lalit Kumar</p>
             <p className="">Founder : CDL</p>
+</div>
           </div>
         </div>
 
         {/* ---------------------------contactus form------------------------- */}
 
-        <div className="shadow-xl bg-slate-100 rounded-md bg-clip-padding backdrop-filter  backdrop-blur-xl bg-opacity-20 ">
+        {/* <div className="shadow-xl bg-slate-100 rounded-md bg-clip-padding backdrop-filter  backdrop-blur-xl bg-opacity-20 ">
           <Contactform />
-        </div>
+        </div> */}
       </div>
     </div>
   );

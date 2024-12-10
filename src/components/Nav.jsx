@@ -68,16 +68,12 @@ const Nav = () => {
                     AboutUs
                   </Link>
                 </li>
-                <li className="pb-4 text-xl text-white py-4 px-6 text-center  border-b-2 md:border-b-0  hover:bg-[#4c9dbd]  border-[#0a1417] md:hover:underline md:hover:text-[#eca84f] md:hover:bg-transparent">
-                  <Link href="/ContactUs" onClick={() => setNavbar(!navbar)}>
-                    Contact
-                  </Link>
-                </li>
-                <li className="pb-4 text-xl text-white py-4 px-6 text-center  border-b-2 md:border-b-0  hover:bg-[#4c9dbd]  border-[#0a1417] md:hover:underline md:hover:text-[#eca84f] md:hover:bg-transparent">
+                
+                {/* <li className="pb-4 text-xl text-white py-4 px-6 text-center  border-b-2 md:border-b-0  hover:bg-[#4c9dbd]  border-[#0a1417] md:hover:underline md:hover:text-[#eca84f] md:hover:bg-transparent">
                   <Link href="/faq" onClick={() => setNavbar(!navbar)}>
                     FAQ
                   </Link>
-                </li>
+                </li> */}
                 <li className="pb-4 text-xl text-white py-4 px-6 text-center  border-b-2 md:border-b-0  hover:bg-[#4c9dbd]  border-[#0a1417] md:hover:underline md:hover:text-[#eca84f] md:hover:bg-transparent">
                   <Link href="/Services" onClick={() => setNavbar(!navbar)}>
                     Why Us
@@ -88,10 +84,18 @@ const Nav = () => {
                     Our Products
                   </Link>
                 </li>
+                <li className="pb-4 text-xl text-white py-4 px-6 text-center  border-b-2 md:border-b-0  hover:bg-[#4c9dbd]  border-[#0a1417] md:hover:underline md:hover:text-[#eca84f] md:hover:bg-transparent">
+                  <Link href="/ContactUs" onClick={() => setNavbar(!navbar)}>
+                    Contact Us
+                  </Link>
+                </li>
               </ul>
             </div>
           </div>
         </div>
+        </div>
+        <div className='bg-orange-500 h-[10px]'>
+
         </div>
     </div>
   )

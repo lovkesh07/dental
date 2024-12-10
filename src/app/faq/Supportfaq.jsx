@@ -32,12 +32,12 @@ const Supportfaq = () => {
     },
   ];
   return (
-    <div className="pt-16 pb-24 p:16 px-8 lg:p-24 bg-gradient-to-b from-white from-10% via-white via-10% to-[#64CCC5] to-90%">
+    <div className="pt-16 pb-24 p:16 px-8 lg:p-24 ">
       <h2
-        className="text-4xl lg:pb-16 py-6 tracking-tight text-black sm:text-4xl lg:text-6xl font-bold"
+        className="text-3xl mb-8 lg:mb-16 border-b-[10px] box-border mx-auto lg:w-[60%] border-red-600 text-center tracking-tight pt-12 pb-2 text-black sm:text-4xl lg:text-6xl font-extrabold"
         data-aos="fade-up"
       >
-        Frequently asked questions...
+        Frequently Asked Questions
       </h2>
       {/* Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione, fugiat
       dolore ex repellat temporibus saepe? */}

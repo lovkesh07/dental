@@ -32,7 +32,7 @@ const Contacttext = () => {
 
               <div>
               <h2 className="font-bold text-sm lg:text-2xl">EMAIL ID.</h2>
-            <p className="pb-8 lg:pb-12"> 9810350385 </p>
+            <p className="pb-8 lg:pb-12"> support@chauhandentallaboratory.com </p>
 
               </div>
 

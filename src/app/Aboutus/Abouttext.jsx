@@ -2,8 +2,8 @@ import React from "react";
 
 const Abouttext = () => {
   return (
-    <div id="diagnoos">
-      <div className="bg-gradient-to-t from-white from-10% via-white via-10% to-[#64CCC5] to-90% pb-10">
+    <div id="">
+      <div className="pb-10">
         <div className="pt-22 overflow-hidden sm:mt-0 sm:pt-20">
           <div className="mx-auto max-w-7xl px-6 lg:flex lg:px-8">
             <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-12 gap-y-16 lg:mx-0 lg:min-w-full lg:max-w-none lg:flex-none lg:gap-y-8">
@@ -19,7 +19,7 @@ const Abouttext = () => {
                 </h2>
 
                 <p
-                  className="mt-6 text-xl leading-8 text-gray-600"
+                  className="mt-6 text-xl leading-8 "
                   data-aos="fade-up"
                 >
                   Chauhan dental laboratory was founded as a small laboratory in
@@ -31,7 +31,7 @@ const Abouttext = () => {
                 </p>
 
                 <p
-                  className="mt-6 text-xl leading-8 text-gray-600"
+                  className="mt-6 text-xl leading-8 "
                   data-aos="fade-up"
                 >
                   Our Directors have traveled extensively; attending
@@ -85,7 +85,7 @@ const Abouttext = () => {
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
 
           <p
-                  className="mt-6 text-xl leading-8 text-gray-600"
+                  className="mt-6 text-xl leading-8 "
                   data-aos="fade-up"
                 >
                   To this day this is the strategy we employ, and this is what
@@ -98,14 +98,14 @@ const Abouttext = () => {
                 
 
                 <p
-                  className="mt-24 text-xl leading-8 text-gray-600 font-bold"
+                  className="mt-24 text-xl leading-8 font-bold "
                   data-aos="fade-up"
                 >
                   CDL is more than just a dental lab. Why is this?
                 </p>
 
                 <p
-                  className="mt-6 text-xl leading-8 text-gray-600"
+                  className="mt-6 text-xl leading-8 "
                   data-aos="fade-up"
                 >
                   Firstly, we place great importance on sharing the unrivaled
@@ -116,7 +116,7 @@ const Abouttext = () => {
                 </p>
 
                 <p
-                  className="mt-6 text-xl leading-8 text-gray-600"
+                  className="mt-6 text-xl leading-8 "
                   data-aos="fade-up"
                 >
                   Secondly, we pride ourselves on providing industry-leading
@@ -128,7 +128,7 @@ const Abouttext = () => {
                 </p>
 
                 <p
-                  className="mt-6 text-xl leading-8 text-gray-600"
+                  className="mt-6 text-xl leading-8 "
                   data-aos="fade-up"
                 >
                   With more than 35 years of industry experience, spanning two

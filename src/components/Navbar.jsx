@@ -53,7 +53,7 @@ function NavBar() {
                   clip-rule="evenodd"
                 />
               </svg>
-              <Link href="/"><span className="cursor-pointer text-[10px] lg:text-sm hover:text-red-400">lalitkumar7221@chauhandentallaboratory.com</span> </Link>
+              <Link href="/"><span className="cursor-pointer text-[10px] lg:text-sm hover:text-red-400">support@chauhandentallaboratory.com</span> </Link>
             </div>
             </div>
           </div>

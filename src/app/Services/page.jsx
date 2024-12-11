@@ -9,8 +9,8 @@ const page = () => {
   return (
     <div>
       <div className="relative">
-        <Image
-          src={img3}
+      <img
+          src="https://t4.ftcdn.net/jpg/08/56/20/45/360_F_856204581_zCZ7dpK8zSZ9bIa41pid2dJrM8pzvq0r.jpg"
           className="w-full h-[20vh] mt-[18vh] bg-blend-lighten md:bg-blend-darken"
         />
 

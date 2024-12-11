@@ -1,6 +1,8 @@
 import React from "react";
 import Link from "next/link";
 import Whatsapp from "@/components/Whatsapp";
+import Image from "next/image";
+import img3 from "../../../public/Images/bb4.png";
 
 const page = () => {
   const people = [
@@ -41,9 +43,21 @@ const page = () => {
   return (
     <div>
       <div className="text-center justify-center">
-        <h1 className="text-6xl  mt-24 pt-24 font-bold pb-6 border-b-[20px] border-orange-500">
+        {/* <h1 className="text-6xl  mt-24 pt-24 font-bold pb-6 border-b-[20px] border-orange-500">
           Product
-        </h1>
+        </h1> */}
+
+<div className="relative">
+        <img
+          src="https://t4.ftcdn.net/jpg/08/56/20/45/360_F_856204581_zCZ7dpK8zSZ9bIa41pid2dJrM8pzvq0r.jpg"
+          className="w-full h-[20vh] mt-[18vh] bg-blend-lighten md:bg-blend-darken"
+        />
+
+
+        <div class="absolute top-[50%] translate-y-[-50%] left-[50%] translate-x-[-50%] text-[30px] lg:text-[50px] font-bold text-white w-full text-center p-5">
+        Product
+        </div>
+      </div>
 
         <div className=" p-4 lg:p-24 mx-auto grid   grid-cols-1 gap-x-6 gap-y-5 sm:grid-cols-2 lg:max-w-[90%] lg:grid-cols-4 ">
           {people.map((person) => (

@@ -7,7 +7,7 @@ const Faq = ({ open, toggle, title, desc }) => {
   return (
     <div className="pt-[5px] w-[80%] mx-auto lg:p-[24] border-b-[1px] border-solid">
       <div
-        className=" py-[10px] lg:px-[50px] flex justify-between items-center cursor-pointer "
+        className="hover:bg-orange-200 py-[10px] lg:px-[50px] flex justify-between items-center cursor-pointer "
         onClick={toggle}
       >
         <p className="lg:text-[20px] font-semibold " data-aos="fade-up">{title}</p>

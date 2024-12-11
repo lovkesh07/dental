@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Sectionextra = () => {
   return (
-    <div className="mx-auto p-8 lg:p-24 text-slate-200 bg-slate-800">
+    <div className="mx-auto p-8 lg:p-24 ">
       {/* <h1 className=" py-3">Why Work with Us?</h1> */}
       <h1
         className=" py-3 font-bold text-2xl md:text-4xl lg:text-6xl"

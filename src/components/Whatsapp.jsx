@@ -1,10 +1,10 @@
 import React from "react";
 
 const Whatsapp = () => {
-  const phoneNumber = "8130584501"; // Replace with your phone number (in international format)
+  const phoneNumber = "9810350385"; // Replace with your phone number (in international format)
   const message = "Hello, I have a question!"; // Customize your message
 
-  const email = "lovkeshptl@gmail.com"; // Replace with your email address
+  const email = "support@chauhandentallaboratory.com"; // Replace with your email address
   const subject = "Inquiry from the Website"; // Customize your subject
   const body = "Hello, I have a question regarding..."; // Customize your email body
 
